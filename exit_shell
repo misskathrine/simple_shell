@@ -1,0 +1,4 @@
+exit: exit [n]
+	Exit the shell.
+The Exit command is used to terminate the current shell session of exit from a script. When the exit command is executed the shell with be closed, and you will return to the previous environment.Exits the shell with a status of N.  If N is omitted, the exit status
+is that of the last command executed. This is what you should do.

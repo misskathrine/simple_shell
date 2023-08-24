@@ -1,0 +1,10 @@
+cd: cd [-] [dir]
+
+This command is used to change the current working directory in Unix-based shells to change the current working directory.
+If no directory is specified, the command changes the directory to the user's home directory.
+If the specified directory is not found, and the cdable_vars shell option is set, the command assumes that the argument is a variable name and attempts to use its value as the directory path..
+
+Options:(-)
+Use cd command to redirect the parent working directory to the old parent working directory and set an environment variable OLDPWD
+Exit Status:
+command returns an exit status of 0 if the directory is changed and if $PWD is set successfully. If not, it returns a negative number.

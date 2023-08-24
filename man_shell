@@ -1,0 +1,41 @@
+The shell man 1 "MAY 24 2023" "1.0" "ALX simple_shell Project"
+
+.SH name
+hsh - hoberton simple shell
+
+Type `help' to see this list.
+Use `info bash' to find out more about the shell in general.
+Use `man -k' or `info' to find out more about commands not in this list.
+
+
+alias [-p] [name[=value] ... ]
+break [n]
+builtin [shell-builtin [arg ...]]
+cd [-L|[-P [-e]] [-@]] [dir]
+command [-pVv] command [arg ...]
+declare [-aAfFgilnrtux] [-p] [name[=value] ...]
+echo [-neE] [arg ...]
+ exec [-cl] [-a name] [command [arguments ...]] [redirection ...]
+ exit [n]
+ function name { COMMANDS ; } or name () { COMMANDS ; }
+ getopts optstring name [arg]
+ help [-dms] [pattern ...]
+ printf [-v var] format [arguments]
+ kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+ pwd [-LP]
+ read [-ers] [-a array] [-d delim] [-i text] [-n nchars] [-N nchars] [-p prompt]
+ unalias [-a] name [name ...]
+ unalias [-a] name [name ...]
+ return [n]
+ set [-abefhkmnptuvxBCHP] [-o option-name] [--] [arg ...]
+ source filename [arguments]
+ wait [-n] [id ...]
+ while COMMANDS; do COMMANDS; done
+ suspend [-f]
+ variables - Names and meanings of some shell variables
+ logout [n]
+ pushd [-n] [+N | -N | dir]
+ time [-p] pipeline
+ typeset [-aAfFgilnrtux] [-p] name[=value] ...
+ until COMMANDS; do COMMANDS; done
+ for NAME [in WORDS ... ] ; do COMMANDS; done
